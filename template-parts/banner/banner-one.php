@@ -32,6 +32,11 @@ if( $banner_query -> have_posts() ) {
                                         <div class="gc-container">
                                             <div class="gc-caption-sec">
                                                 <div class="post-content">
+                                                    <div class="is-post-format">
+                                                        <span class="is-link">
+                                                            <i class="feather icon-external-link"></i>
+                                                        </span>
+                                                    </div>
                                                     <?php gucherry_blog_categories_meta( true ); ?>
                                                     <div class="post-title">
                                                         <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
