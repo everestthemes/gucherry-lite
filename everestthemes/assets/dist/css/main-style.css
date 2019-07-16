@@ -17,7 +17,8 @@ a:hover,
 .gc-pagination nav.pagination .nav-links .page-numbers.next:hover,
 .gc-pagination nav.pagination .nav-links .page-numbers.prev:hover,
 .mastheader .search-trigger:hover,
-.mastheader .canvas-trigger:hover {
+.mastheader .canvas-trigger:hover,
+.gc-header-s1 .social-icons ul li a:hover {
 
     color: #ff9f1a;
 }
@@ -111,6 +112,7 @@ input[type="submit"],
     color: #fff;
 }
 
+
 .gc-banner-s1 .gc-col.left {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 70%;
@@ -194,6 +196,8 @@ input[type="submit"],
     margin-top: 120px;
 }
 
+.is-post-format span{
+border-radius:50%;}
 .post-content .post-title a {
     line-height: 1.2 background-image: -webkit-linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #ff9f1a 50%);
     background-image: -moz-linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #ff9f1a 50%);
@@ -271,28 +275,65 @@ left:0;
 display:none;
 }
 .entry-cats ul li:first-child a{
-	background-color: #ff9f1a;
+	background-color: #f3b9b9;
 }
 .entry-cats ul li:first-child a:after{
-border-left-color:  #ff9f1a;
+border-left-color:  #f3b9b9;
 }
 .entry-cats ul li:nth-child(2) a{
-	background-color: #3ae374;
+	background-color: #a5caea;
 }
 .entry-cats ul li:nth-child(2) a:after{
-border-left-color: #3ae374;
+border-left-color: #a5caea;
 }
 .entry-cats ul li:nth-child(3) a{
-	background-color: #ff4d4d;
+	background-color: #a2ded6;
 }
 .entry-cats ul li:nth-child(3) a:after{
-border-left-color: #ff4d4d;
+border-left-color: #a2ded6;
 }
 .entry-cats ul li:nth-child(4) a{
-	background-color: #17c0eb;
+	background-color: #e1e8aa;
 }
 .entry-cats ul li:nth-child(4) a:after{
-border-left-color: #17c0eb;
+border-left-color: #e1e8aa;
+}
+
+.entry-cats ul li:nth-child(5) a{
+    background-color: #d3aae8;
+}
+.entry-cats ul li:nth-child(5) a:after{
+border-left-color: #d3aae8;
+}
+.entry-cats ul li:nth-child(6) a{
+    background-color: #e8d3aa;
+}
+.entry-cats ul li:nth-child(6) a:after{
+border-left-color: #e8d3aa;
+}
+.entry-cats ul li:nth-child(7) a{
+    background-color: #c7c7c7;
+}
+.entry-cats ul li:nth-child(7) a:after{
+border-left-color: #c7c7c7;
+}
+.entry-cats ul li:nth-child(8) a{
+    background-color: #aef3d7;
+}
+.entry-cats ul li:nth-child(8) a:after{
+border-left-color: #aef3d7;
+}
+.entry-cats ul li:nth-child(9) a{
+    background-color: #505050;
+}
+.entry-cats ul li:nth-child(9) a:after{
+border-left-color: #505050;
+}
+.entry-cats ul li:nth-child(10) a{
+    background-color: #db99ef;
+}
+.entry-cats ul li:nth-child(10) a:after{
+border-left-color: #db99ef;
 }
 
 @media (max-width: 1200px){
