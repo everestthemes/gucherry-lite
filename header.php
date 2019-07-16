@@ -23,7 +23,7 @@
 <body <?php body_class(); ?>>
 	<div class="page-wrap">
        <a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'gucherry-lite' ); ?></a>
-        <header class="mastheader gc-header-s1">
+        <header class="mastheader gc-header-s1 gc-header-s4">
             <div class="header-inner">
                <?php
                 if( has_header_image() ) {
