@@ -1,0 +1,335 @@
+a:hover,
+.editor-entry a,
+.entry-metas ul li a:hover,
+#gc-backtotop .caption,
+.widget_archive a:hover,
+.widget_categories a:hover,
+.widget_recent_entries a:hover,
+.widget_meta a:hover,
+.widget_product_categories a:hover,
+.widget_rss li a:hover,
+.widget_pages li a:hover,
+.widget_nav_menu li a:hover,
+.widget_rss ul li a,
+.comments-area .comment-body .reply a:hover,
+.comments-area .comment-body .reply a:focus,
+.woocommerce-widget-layered-nav ul li a:hover,
+.gc-pagination nav.pagination .nav-links .page-numbers.next:hover,
+.gc-pagination nav.pagination .nav-links .page-numbers.prev:hover,
+.mastheader .search-trigger:hover,
+.mastheader .canvas-trigger:hover {
+
+    color: #ff9f1a;
+}
+
+.entry-tags .post-tags a {
+
+    border: 1px solid #ff9f1a;
+}
+
+
+.gc-button-primary {
+
+    border: 2px solid #ff9f1a;
+}
+
+
+.read-more-button:hover:before,
+#gc-backtotop .caption:after,
+.entry-cats ul li:nth-child(n+11) a:before,
+.gc-pagination nav.pagination .nav-links .page-numbers.next:hover::before,
+.gc-pagination nav.pagination .nav-links .page-numbers.prev:hover::before {
+
+    content: '';
+    background-color: #ff9f1a;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.gc-button-primary:hover,
+.calendar_wrap caption,
+.is-post-format span,
+.gc-banner-s1 .owl-dots .owl-dot.active,
+.gc-social-widget .social-icons ul li a:hover,
+.gc-pagination nav.pagination .nav-links .page-numbers,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-range,
+.jetpack_subscription_widget input[type="submit"],
+.site-navigation>ul>li>a:hover,
+.site-navigation ul li.current-menu-item a {
+
+    background-color: #ff9f1a;
+}
+
+.widget .widget-title h3::before {
+
+    content: '';
+    border-left: 4px solid #ff9f1a;
+}
+
+.calendar_wrap caption {
+
+    background: none repeat scroll 0 0 #ff9f1a;
+}
+
+/* changes */
+.gc-header-s1 .gc-logo-block {
+    text-align: left;
+}
+
+.gc-header-s1 .bottom-header {
+    border: none;
+    background-color: #222;
+}
+
+.site-navigation>ul>li>a,
+.mastheader .search-trigger,
+.mastheader .canvas-trigger {
+    color: #fff;
+}
+
+.site-navigation ul li a::after {
+    display: none;
+}
+.site-navigation ul li:hover>.sub-menu{
+	background-color: #2d2d2d;
+}
+.site-navigation ul li .sub-menu li a, .site-navigation ul li .children li a{
+	font-size: 14px;
+}
+.site-navigation ul li .sub-menu li a:hover, .site-navigation ul li .children li a:hover{
+	color:  #ff9f1a;
+	background-color:transparent;
+}
+
+
+
+.gc-header-s1 .social-icons ul li a {
+    color: #fff;
+}
+
+.gc-banner-s1 .gc-col.left {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 70%;
+    flex: 0 0 70%;
+    max-width: 70%;
+    left: 40px;
+    position: relative;
+    bottom: 40px;
+}
+
+.gc-banner-s1 .post-content {
+    background: rgba(34, 34, 34, 0);
+    height: auto;
+    min-height: 300px;
+}
+
+.gc-banner-s1 .entry-cats ul li a,
+.gc-banner-s1 .post-title a,
+.read-more-button {
+    color: #fff;
+}
+
+.read-more-button::before {
+    background-color: #eee;
+}
+
+.entry-cats ul li a:before {
+    height: 1px;
+    width: 50%;
+    transition: 0.5s ease all;
+    display: none;
+
+}
+
+.entry-cats ul li a:hover:before {
+    width: 100%;
+
+}
+
+.gc-banner-s1 .owl-dots .owl-dot,
+.gc-banner-s1 .owl-dots .owl-dot.active {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+
+
+/*banner  */
+.banner.full .gc-banner-holder {
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+}
+
+.banner.full .gc-banner-holder:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+21,000000+21,000000+100&0.65+0,0+74 */
+    background: -moz-linear-gradient(45deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.47) 21%, rgba(0, 0, 0, 0) 74%, rgba(0, 0, 0, 0) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.47) 21%, rgba(0, 0, 0, 0) 74%, rgba(0, 0, 0, 0) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.47) 21%, rgba(0, 0, 0, 0) 74%, rgba(0, 0, 0, 0) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6000000', endColorstr='#00000000', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+    radientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+
+}
+
+.gc-caption-sec {
+    width: 40%;
+    margin-bottom: 30px;
+    margin-top: 120px;
+}
+
+.post-content .post-title a {
+    line-height: 1.2 background-image: -webkit-linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #ff9f1a 50%);
+    background-image: -moz-linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #ff9f1a 50%);
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #ff9f1a 50%);
+}
+
+.post-title a:hover {
+    background-image: -webkit-linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #ff9f1a 50%);
+    background-image: -moz-linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #ff9f1a 50%);
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #ff9f1a 50%);
+}
+
+.gc-caption-sec .gc-button-primary ,
+.site-navigation ul li .sub-menu li a, .site-navigation ul li .children li a{
+    color: #fff;
+}
+
+.gc-blog-list-s1 .top-block,
+.gc-blog-list-s1 .bottom-block .permalink {
+    text-align: left;
+}
+
+.gc-button-primary {
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+
+.widget .widget-title h3::before {
+    content: '';
+    border-left: 11px solid #ff9f1a;
+    border-bottom: 20px solid transparent;
+}
+
+.gc-pagination nav.pagination .nav-links .page-numbers {
+    border-radius: 6px;
+    transition: 0.5s ease all;
+}
+
+.gc-pagination nav.pagination .nav-links .page-numbers.current {
+    background-color: transparent;
+    border: 2px solid #EC521E;
+    color: #222;
+}
+
+.gc-pagination nav.pagination .nav-links .page-numbers:hover {
+    opacity: 0.8;
+}
+.gc-blog-list-s1 .post-title h3 {
+    font-size: 32px;
+}
+.menu-toggle span{
+	background-color: #fff;
+}
+.entry-cats ul li a{
+background-color:#333;
+padding:2px 5px;
+display:inline-block;
+margin:0;
+line-height:1.1;
+text-transform:capitalize;
+color:#fff
+}
+ .entry-cats ul li a:hover{
+ 	opacity: 0.7;
+ }
+ .entry-cats ul li a:after{
+  position:absolute;
+content:'';
+border-left:10px solid #333;
+border-bottom:6px solid transparent;
+top:16px;;
+left:0;
+}
+.entry-cats ul li a:before{
+display:none;
+}
+.entry-cats ul li:first-child a{
+	background-color: #ff9f1a;
+}
+.entry-cats ul li:first-child a:after{
+border-left-color:  #ff9f1a;
+}
+.entry-cats ul li:nth-child(2) a{
+	background-color: #3ae374;
+}
+.entry-cats ul li:nth-child(2) a:after{
+border-left-color: #3ae374;
+}
+.entry-cats ul li:nth-child(3) a{
+	background-color: #ff4d4d;
+}
+.entry-cats ul li:nth-child(3) a:after{
+border-left-color: #ff4d4d;
+}
+.entry-cats ul li:nth-child(4) a{
+	background-color: #17c0eb;
+}
+.entry-cats ul li:nth-child(4) a:after{
+border-left-color: #17c0eb;
+}
+
+@media (max-width: 1200px){
+.gc-caption-sec{
+	width: 60%;
+}
+}
+
+@media (max-width: 768px){
+
+.banner.full .gc-banner-holder{
+	height: 300px;
+	margin-bottom: 250px;
+
+}
+.gc-banner-s1 .post-content,
+.banner-inner{
+	background-color: #333;
+	margin:auto;
+
+}
+.gc-banner-s1 .post-content{
+	min-height: 1px;
+	padding:30px;
+}
+.gc-caption-sec{
+	width: 100%;
+}
+.gc-button-primary.medium {
+    padding: 10px 30px;
+}
+.site-navigation ul li .sub-menu li a:hover, .site-navigation ul li .children li a:hover,
+.site-navigation ul li a:hover{
+	color:  #ff9f1a;
+	background-color:transparent;
+}
+.gc-caption-sec{
+	margin-top: 300px;
+}
+}
