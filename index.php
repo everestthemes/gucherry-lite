@@ -91,6 +91,7 @@ get_header();
         </div><!-- // widget-area-inner -->
     </section><!-- // main-content-area-wrap -->
     <?php 
+   
     // Bottom Widget Area
     if( is_active_sidebar( 'gucherry-blog-bottom-widget' ) ) {
     ?>

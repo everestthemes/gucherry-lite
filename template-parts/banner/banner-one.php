@@ -37,11 +37,13 @@ if( $banner_query -> have_posts() ) {
                                                             <i class="feather icon-external-link"></i>
                                                         </span>
                                                     </div>
-                                                    <?php gucherry_blog_categories_meta( true ); ?>
+                                                    <div class="cate-list-4">
+                                                        <?php gucherry_blog_categories_meta( true ); ?>
+                                                    </div>
                                                     <div class="post-title">
                                                         <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
                                                     </div>
-
+                                                <div class="gc-meta-4">
                                                     <div class="entry-metas">
                                                         <ul>
                                                             <li class="posted-time">
@@ -59,6 +61,7 @@ if( $banner_query -> have_posts() ) {
                                                             </li>
                                                         </ul>
                                                     </div><!--meta-->
+                                                </div>
                                                     <div class="permalink">
                                                         <a class="gc-button-primary medium" href="<?php the_permalink(); ?>"><?php echo esc_html__( 'Read More', 'gucherry-lite' ); ?></a>
                                                     </div>
