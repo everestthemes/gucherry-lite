@@ -20,14 +20,14 @@ if ( !function_exists( 'gucherry_lite_fonts_url' ) ) :
         /* translators: If there are characters in your language that are not supported by Merriweather, translate this to 'off'. Do not translate into your own language. */
         if ('off' !== _x('on', 'Heebo font: on or off', 'gucherry-lite')) {
 
-            $fonts[] = 'Open+Sans:400,600';
+            $fonts[] = 'Open+Sans:400,400i,600,600i,700,700i,800,800i';
         }
 
         /* translators: If there are characters in your language that are not supported by Merriweather, translate this to 'off'. Do not translate into your own language. */
 
         if ('off' !== _x('on', 'Playfair Display font: on or off', 'gucherry-lite')) {
 
-            $fonts[] = 'Josefin+Sans:300,400,600,700i';
+            $fonts[] = 'Josefin+Sans:400,400i,600,600i,700,700i';
         }
 
         if ( $fonts ) {

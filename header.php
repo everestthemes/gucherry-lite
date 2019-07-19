@@ -21,47 +21,39 @@
 </head>
 
 <body <?php body_class(); ?>>
-	<div class="page-wrap">
+	<div class="page-wrap extra-gc-layout-4">
        <a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'gucherry-lite' ); ?></a>
-        <header class="mastheader gc-header-s1 gc-header-s4">
+       <header class="mastheader gc-header-s4">
             <div class="header-inner">
-               <?php
-                if( has_header_image() ) {
-                    ?>
-                    <div class="gc-logo-block" style="background-image: url( <?php header_image(); ?> );">
-                    <?php
-                } else {
-                    ?>
-                    <div class="gc-logo-block">
-                    <?php
-                }
-                ?>
+                <div class="gc-logo-block">
                     <div class="gc-container">
-                        <div class="row align-items-center">
-                            <div class="col-12 col-lg-4">
+                        <div class="gc-row">
+                            <div class="gc-col left">
                                 <div class="site-identity">
-                                <?php
-                                the_custom_logo();
+                                    <?php
+                                    the_custom_logo();
                                     ?>
                                     <span class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></span>
-                                <?php
-                                $gucherry_blog_description = get_bloginfo( 'description', 'display' );
-                                if ( $gucherry_blog_description || is_customize_preview() ) :
+                                    <?php
+                                    $gucherry_blog_description = get_bloginfo( 'description', 'display' );
+                                    if ( $gucherry_blog_description || is_customize_preview() ) :
                                     ?>
                                     <p class="site-description"><?php echo esc_html( $gucherry_blog_description ); /* WPCS: xss ok. */ ?></p>
-                                <?php endif; ?>
+                                    <?php endif; ?>
                                 </div><!-- // site-identity -->
-                            </div><!-- //col-lg-4 -->
-                            <div class="col-12 col-lg-8">
-                                <?php
-                                // Header Advertisement
-                                if( is_active_sidebar( 'gucherry-lite-header-advertisement' ) ) {
+                            </div><!-- // gc-col -->
+                            <div class="gc-col right">
+                                <div class="widget-area-entry">
+                                    <?php
+                                    // Header Advertisement
+                                    if( is_active_sidebar( 'gucherry-lite-header-advertisement' ) ) {
 
-                                    dynamic_sidebar( 'gucherry-lite-header-advertisement' );
-                                }
-                                ?>
+                                        dynamic_sidebar( 'gucherry-lite-header-advertisement' );
+                                    }
+                                    ?>             
+                                 </div>
                             </div>
-                        </div><!-- // row -->
+                            </div><!-- // gc-row -->
                     </div><!-- // gc-container -->
                 </div><!-- // gc-logo-block -->
                 <div class="bottom-header">
@@ -70,7 +62,7 @@
                             <div class="gc-col left">
                                 <div class="social-icons">
                                     <ul>
-                                        <?php gucherry_lite_social_links_template( 'header' ); ?>
+                                        <?php gucherry_blog_social_links_template( 'header' ); ?>
                                     </ul>
                                 </div><!-- // social-icons -->
                             </div><!-- // gc-col -->
@@ -96,7 +88,7 @@
                                 </div><!-- // primary-navigation-wrap -->
                             </div><!-- // gc-col -->
                             <div class="gc-col right">
-                               <?php
+                                <?php
                                 $display_search_icon = get_theme_mod( 'gucherry_blog_header_display_search', 'true' );
                                 if( $display_search_icon == true ) {
                                 ?>
@@ -115,7 +107,7 @@
                     </div><!-- // gc-container -->
                 </div><!-- // bottom-header -->
             </div><!-- // header-inner -->
-        </header><!-- // mastheader gc-header-s1 -->
+        </header><!-- // mastheader gc-header-s4 -->
         <div class="search-overlay-holder">
             <div class="gc-container">
                 <div class="search-wrapper">
