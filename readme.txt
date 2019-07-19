@@ -10,7 +10,6 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: post-formats, block-styles, wide-blocks, custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, one-column, two-columns, blog, right-sidebar, theme-options, footer-widgets, left-sidebar, grid-layout, custom-header
 
 
-
 == Description ==
 
 GuCherry Lite is a modern Gutenberg compatible eye catching interactive designed free WordPress theme for bloggers. This theme features a modern, elegant and clean layout along with a fully responsive design especially for creating personal blog. Using GuCherry Lite, You can share your ideas on various topics such as travel, lifestyle, food, fashion and many more. It is a Speed & SEO optimized theme which helps your website perform well in search engine ranking. Furthermore, it is cross browser compatible and looks beautiful on any device and screen sizes. If you are looking for demo content & support kindly do log-on to https://everestthemes.com/
@@ -63,10 +62,6 @@ GuCherry Lite is distributed under the terms of the GNU GPL
 == Screenshot ==
 
 1. https://stocksnap.io/photo/QYGOYPVLNC (http://creativecommons.org/publicdomain/zero/1.0 - CCO)
-
-2. https://stocksnap.io/photo/MD4L58LL1E (http://creativecommons.org/publicdomain/zero/1.0 - CCO)
-
-3. https://stocksnap.io/photo/KVJUCEE9JY (http://creativecommons.org/publicdomain/zero/1.0 - CCO)
 
 4. Logo Image & Advertisement Image ( Self created GPLv2 or later )
 

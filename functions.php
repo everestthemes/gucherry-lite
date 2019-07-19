@@ -54,55 +54,6 @@ function gucherry_lite_widgets_init() {
 
 add_action( 'widgets_init', 'gucherry_lite_widgets_init', 20 );
 
-/**
- * Social links template
- */
-if( ! function_exists( 'gucherry_lite_social_links_template' ) ) {
-    
-    function gucherry_lite_social_links_template( $position ) {
-        
-        $display_social_links = get_theme_mod( 'gucherry_blog_header_display_social_links', true );
-        
-        if( $position == 'header' ) {
-            
-            if( $display_social_links == true ) {
-                
-                $facebook_link = get_theme_mod( 'gucherry_blog_social_links_facebook_link', esc_html( '#' ) );
-                $twitter_link = get_theme_mod( 'gucherry_blog_social_links_twitter_link', esc_html( '#' ) );
-                $instagram_link = get_theme_mod( 'gucherry_blog_social_links_instagram_link', esc_html( '#' ) );
-
-                if( !empty( $facebook_link ) ) { 
-                ?>
-                <li>
-                    <a href="<?php echo esc_url( $facebook_link ); ?>">
-                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                    </a>
-                </li>
-                <?php
-                }
-                if( !empty( $twitter_link ) ) {
-                ?>
-                <li>
-                    <a href="<?php echo esc_url( $twitter_link ); ?>">
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                    </a>
-                </li>
-                <?php
-                }
-                if( !empty( $instagram_link ) ) {
-                ?>
-                <li>
-                    <a href="<?php echo esc_url( $instagram_link ); ?>">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                    </a>
-                </li>
-                <?php
-                }
-            }
-        }  
-    }
-}
-
 if ( ! function_exists( 'gucherry_lite_enqueue_styles' ) ) {
     /**
      * Enqueue Styles.
@@ -124,9 +75,6 @@ if ( ! function_exists( 'gucherry_lite_enqueue_styles' ) ) {
         wp_enqueue_style( 'gucherry-lite-main-style', get_stylesheet_directory_uri() . '/everestthemes/assets/dist/css/main-style.css' );
         
         wp_enqueue_style( 'gucherry-lite-fonts', gucherry_lite_fonts_url() );
-        
-        wp_enqueue_script( 'gucherry-lite-main-script', get_stylesheet_directory_uri() . '/everestthemes/assets/dist/js/main-script.js', array( 'jquery' ), wp_get_theme()->get( 'Version' ), true );
-
     }
 }
 
