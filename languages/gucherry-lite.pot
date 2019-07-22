@@ -34,12 +34,12 @@ msgstr ""
 
 #. translators: If there are characters in your language that are not supported by Merriweather, translate this to 'off'. Do not translate into your own language.
 #: inc/theme-functions.php:21
-msgctxt "Heebo font: on or off"
+msgctxt "Open Sans font: on or off"
 msgid "on"
 msgstr ""
 
 #. translators: If there are characters in your language that are not supported by Merriweather, translate this to 'off'. Do not translate into your own language.
 #: inc/theme-functions.php:28
-msgctxt "Playfair Display font: on or off"
+msgctxt "Josefin Sans font: on or off"
 msgid "on"
 msgstr ""
