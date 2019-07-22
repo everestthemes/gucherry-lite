@@ -6,7 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package gucherry-blog
+ * @package GuCherry_Lite
  */
 
 ?>

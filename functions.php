@@ -5,7 +5,7 @@
  * Functions file for child theme, enqueues parent and child stylesheets by default.
  *
  * @since	1.0.0
- * @package gucherry-lite
+ * @package GuCherry_Lite
  */
 
 // Exit if accessed directly.
@@ -72,9 +72,9 @@ if ( ! function_exists( 'gucherry_lite_enqueue_styles' ) ) {
 
         wp_enqueue_style( 'gucherry-lite-parent-main-style', get_template_directory_uri() . '/everestthemes/assets/dist/css/main-style.css' );
         
-        wp_enqueue_style( 'gucherry-lite-main-style', get_stylesheet_directory_uri() . '/everestthemes/assets/dist/css/main-style.css' );
-        
         wp_enqueue_style( 'gucherry-lite-fonts', gucherry_lite_fonts_url() );
+        
+        wp_enqueue_style( 'gucherry-lite-main-style', get_stylesheet_directory_uri() . '/everestthemes/assets/dist/css/main-style.css' );
     }
 }
 
@@ -161,7 +161,7 @@ function gucherry_lite_dynamic_style() {
         select,
         textarea {
 
-            font-family: 'Open Sans', sans-serif;;
+            font-family: 'Open Sans', sans-serif;
 
         }
         <?php

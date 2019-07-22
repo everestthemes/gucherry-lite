@@ -3,7 +3,7 @@
 /**
  * The template for banner one
  *
- * @package gucherry-blog
+ * @package GuCherry_Lite
  */
 
 $banner_query = gucherry_blog_banner_posts_query();
