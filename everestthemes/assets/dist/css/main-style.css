@@ -239,8 +239,9 @@ figure {
   .gc-banner-s4 .gc-col.right .banner-4-rel-post:first-child .thumb{
   	margin-bottom: 30px;
   }
-.gc-banner-s4  .banner-4-rel-post .post-title h2 a{
+.gc-banner-s4  .banner-4-rel-post .post-title  a{
 font-size: 16px;
+line-height: 1.1;
 }
 .gc-banner-s4  .banner-4-rel-post .post-content{
 	padding:15px;
@@ -262,9 +263,12 @@ font-size: 16px;
     padding: 2px 5px;
     display: inline-block;
     margin: 0;
-    line-height: 1.1;
+    line-height: 1.2;
     text-transform: capitalize;
-    color: #fff
+    color: #fff;
+    font-weight: 400;
+    font-size: 11px;
+    letter-spacing: 1px;
 }
 
 .extra-gc-layout-4  .entry-cats ul li a:hover {
@@ -362,10 +366,12 @@ font-size: 16px;
 .extra-gc-layout-4 .entry-cats ul li:nth-child(10) a:after {
     border-left-color: #db99ef;
 }
-.gc-banner-s4 .post-title h2 a{
+.gc-banner-s4 .post-title {
+    margin-top: 15px;
+}
+.gc-banner-s4 .post-title  a{
     color:#fff;
     margin-top: 15px;
-    display: block;  
 }
 .gc-banner-s4 .entry-metas ul li a:hover{
 	color: #ff9f1a;
@@ -424,7 +430,7 @@ font-size: 16px;
     	flex: 0 0 100%;
 		
 	}
-	.gc-banner-s4 .post-title h2 a{
+	.gc-banner-s4 .post-title  a{
 		font-size: 22px;
 	}
 }
