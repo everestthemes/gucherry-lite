@@ -56,6 +56,9 @@ a:hover,
     content: '';
     background-color: #ff9f1a;
 }
+#gc-backtotop .caption:after{
+background-color: #ff9f1a;
+}
 
 button,
 input[type="button"],
@@ -241,7 +244,8 @@ figure {
   }
 .gc-banner-s4  .banner-4-rel-post .post-title  a{
 font-size: 16px;
-line-height: 1.1;
+line-height: 1.2;
+    
 }
 .gc-banner-s4  .banner-4-rel-post .post-content{
 	padding:15px;
@@ -281,7 +285,6 @@ line-height: 1.1;
     border-left: 10px solid #333;
     border-bottom: 6px solid transparent;
     top: 16px;
-    ;
     left: 0;
 }
 
@@ -433,4 +436,14 @@ line-height: 1.1;
 	.gc-banner-s4 .post-title  a{
 		font-size: 22px;
 	}
+}
+
+/*change*/
+.entry-metas ul li a:hover{
+    color:  #ff9f1a;
+}
+
+.gc-banner-slider-s4  .entry-cats ul li a,
+.banner-4-rel-post   .entry-cats ul li a{
+    color:#fff;
 }
