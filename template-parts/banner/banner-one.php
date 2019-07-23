@@ -37,7 +37,7 @@ if( $banner_query -> have_posts() ) {
                                             <?php gucherry_blog_post_format_icons(); ?>
                                             <?php gucherry_blog_categories_meta( true ); ?>
                                             <div class="post-title">
-                                                <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+                                                <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                                             </div><!-- // post-title -->
                                             <div class="entry-metas">
                                                 <ul>
