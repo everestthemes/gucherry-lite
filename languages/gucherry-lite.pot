@@ -28,7 +28,7 @@ msgstr ""
 msgid "On enabling this option, child theme font will be shown instead of parent theme."
 msgstr ""
 
-#: header.php:25
+#: header.php:26
 msgid "Skip to content"
 msgstr ""
 
