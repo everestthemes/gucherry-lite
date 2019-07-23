@@ -1,8 +1,8 @@
-# Copyright (C) 2019 everest-news-pro-child
-# This file is distributed under the same license as the everest-news-pro-child package.
+# Copyright (C) 2019 gucherry-lite
+# This file is distributed under the same license as the gucherry-lite package.
 msgid ""
 msgstr ""
-"Project-Id-Version: everest-news-pro-child\n"
+"Project-Id-Version: gucherry-lite\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,3 +16,30 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: functions.php:44
+msgid "Header Advertisment"
+msgstr ""
+
+#: functions.php:108
+msgid "Enable Child Theme Font"
+msgstr ""
+
+#: functions.php:109
+msgid "On enabling this option, child theme font will be shown instead of parent theme."
+msgstr ""
+
+#: header.php:25
+msgid "Skip to content"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported by Merriweather, translate this to 'off'. Do not translate into your own language.
+#: inc/theme-functions.php:21
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported by Merriweather, translate this to 'off'. Do not translate into your own language.
+#: inc/theme-functions.php:28
+msgctxt "Josefin Sans font: on or off"
+msgid "on"
+msgstr ""
