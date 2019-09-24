@@ -436,6 +436,37 @@ line-height: 1.2;
 	.gc-banner-s4 .post-title  a{
 		font-size: 22px;
 	}
+
+  .gc-header-s4 .bottom-header .gc-col.center{
+ -webkit-box-flex: 0;
+   -ms-flex: 0 0 100%;
+   flex: 0 0 100%;
+   max-width: 100%;
+}
+.site-navigation ul li.current-menu-item a{
+padding-left:10px;}
+.gc-header-s4 .site-navigation ul li,
+.gc-header-s4 .site-navigation>ul>li>a{
+ display:block;
+ text-align: left;
+}
+.gc-header-s4  .bottom-header
+{
+ padding:10px 0
+}
+.gc-header-s4  .menu-toggle span{
+background-color:white;
+}
+.gc-header-s4 .bottom-header .gc-col.right{
+ position:absolute;
+right:15px;
+top:-8px;
+}
+.gc-header-s4 .bottom-header .gc-col.left{
+ position:absolute;
+left:50px;
+top:-8px;
+}
 }
 
 /*change*/

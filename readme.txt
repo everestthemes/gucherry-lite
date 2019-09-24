@@ -4,7 +4,7 @@ Contributors: everestthemes
 Requires at least: 5.0
 Requires PHP: 5.6
 Tested up to: 5.2.2
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: post-formats, block-styles, wide-blocks, custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, one-column, two-columns, blog, right-sidebar, theme-options, footer-widgets, left-sidebar, grid-layout, custom-header, slider
@@ -49,6 +49,9 @@ gucherry-lite-blog includes support for contact form7
 
 
 == Changelog ==
+
+= 1.0.2 - September 24 2019 =
+* Responsive Menu Fixed
 
 = 1.0.1 - July 30 2019 =
 * Screenshot Image changed
