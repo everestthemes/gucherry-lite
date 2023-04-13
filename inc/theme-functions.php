@@ -17,6 +17,7 @@ if ( !function_exists( 'gucherry_lite_fonts_url' ) ) :
         $fonts     = array();
         $subsets   = 'latin,latin-ext';
 
+
         /* translators: If there are characters in your language that are not supported by Merriweather, translate this to 'off'. Do not translate into your own language. */
         if ('off' !== _x('on', 'Open Sans font: on or off', 'gucherry-lite')) {
 
@@ -29,6 +30,19 @@ if ( !function_exists( 'gucherry_lite_fonts_url' ) ) :
 
             $fonts[] = 'Josefin+Sans:400,400i,600,600i,700,700i';
         }
+
+        foreach ( $fonts as $f) {
+
+            $f_family = explode(':', $f);
+
+            $f_family = str_replace('+', ' ', $f_family);
+
+            $font_family = ( !empty( $f_family[1]) ) ? $f_family[1] : '';
+
+            $fonts[] = $f_family[0].':'.$font_family;
+
+        }
+
 
         if ( $fonts ) {
             $fonts_url = add_query_arg( array(
